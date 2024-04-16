@@ -13,7 +13,7 @@ class Audit {
     console.log('SUBMISSION VALUE', submission_value, round);
     try {
       // Verify the value
-      if (submission_value == 'Hello, World!') {
+      if (submission_value == 'Hello kid!') {
         vote = true;
       } else {
         vote = false;

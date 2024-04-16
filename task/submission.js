@@ -9,7 +9,7 @@ class Submission {
   async task(round) {
     try {
       console.log('ROUND', round);
-      const value = 'Hello, World!';
+      const value = 'Hello kid!';
       // Store the result in NeDB (optional)
       if (value) {
         await namespaceWrapper.storeSet('value', value);
