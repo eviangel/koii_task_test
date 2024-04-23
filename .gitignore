@@ -11,3 +11,4 @@ config/*
 .env.local
 taskStateInfoKeypair.json
 localKOIIDB.db
+wallet/main.json
