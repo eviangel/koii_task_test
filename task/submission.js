@@ -9,7 +9,11 @@ class Submission {
   async task(round) {
     try {
       console.log('ROUND', round);
-      const value = 'Hello kid!';
+      // Generate a random number between 1 and 10
+      const randomNum = Math.floor(Math.random() * 10) + 1;
+      // Multiply by 2 and then divide by 10
+      const value = ((randomNum * 2) / 10).toString(); // Ensure the result is a string
+
       // Store the result in NeDB (optional)
       if (value) {
         await namespaceWrapper.storeSet('value', value);

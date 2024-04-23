@@ -13,15 +13,18 @@ class Audit {
     console.log('SUBMISSION VALUE', submission_value, round);
     try {
       // Verify the value
-      if (submission_value == 'Hello kid!') {
-        vote = true;
+      // Check if submission_value is a non-zero number
+      const value = parseFloat(submission_value); // Convert the string to a number
+      if (!isNaN(value) && value !== 0) {
+        vote = true; // The submission is correct if it's a non-zero number
       } else {
-        vote = false;
+        vote = false; // The submission is incorrect if it's not a number or is zero
       }
     } catch (e) {
       console.error(e);
       vote = false;
     }
+    
     return vote;
   }
   /**

@@ -1,8 +1,8 @@
 # Name and metadata of your task
-task_name: 'task name'
-author: 'Koii'
-description: 'description'
-repositoryUrl: 'https://github.com/koii-network/task-template' #replace with your own repo url
+task_name: 'pewd test'
+author: 'pewds'
+description: 'test task only'
+repositoryUrl: 'https://github.com/koii-network/test' #replace with your own repo url
 imageUrl: 'imageUrl'
 
 # task_executable_network : DEVELOPMENT, ARWEAVE or IPFS
@@ -18,17 +18,17 @@ audit_window: 350
 submission_window: 350
 
 # minimum_stake_amount: The minimum amount of KOII that a user must stake in order to participate in the task
-minimum_stake_amount: 1.9
+minimum_stake_amount: 1
 
 # total_bounty_amount cannot be grater than bounty_amount_per_round
 # total bounty_amount: The total bounty amount that will be distributed to the task. (Not accepted in case of update task)
-total_bounty_amount: 100
-bounty_amount_per_round: 100
+total_bounty_amount: 10
+bounty_amount_per_round: 2 
 
 # allowed_failed_distributions: Number of times re-submission is allowed for the distribution list in case of an audit. 
 allowed_failed_distributions: 3
 
-# space: Space in MBs for the account size, that holds the task data. 
+# space: Space in MBs for the account size, that npm holds the task data. 
 space: 1
 
 # Note that the value field in RequirementTag is optional, so it is up to you to include it or not based on your use case.
@@ -46,7 +46,7 @@ requirementsTags:
 
 # ONLY provide the task_id and migrationDescription if you are updating the task otherwise leave blank
 # task_id: Previous task id
-task_id: ''
+task_id: 'DUGDAjV7KAk8kK3ABpbUw6ppTp7e7A9zN137MiWfW5V3'
 
 # migrationDescription: Provide the description for changes made in new version of task
-migrationDescription: ''
+migrationDescription: 'Change the submission 2'
