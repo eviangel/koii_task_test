@@ -1,0 +1,36 @@
+lesion_id,image_id,dx,dx_type,age,sex,localization
+HAM_0000550,ISIC_0024306,nv,follow_up,45.0,male,trunk
+HAM_0003577,ISIC_0024307,nv,follow_up,50.0,male,lower extremity
+HAM_0001477,ISIC_0024308,nv,follow_up,55.0,female,trunk
+HAM_0000484,ISIC_0024309,nv,follow_up,40.0,male,trunk
+HAM_0003350,ISIC_0024310,mel,histo,60.0,male,chest
+HAM_0000981,ISIC_0024311,nv,follow_up,75.0,female,back
+HAM_0001359,ISIC_0024312,bkl,histo,75.0,male,lower extremity
+HAM_0002869,ISIC_0024313,mel,histo,50.0,female,back
+HAM_0002198,ISIC_0024314,nv,histo,75.0,male,lower extremity
+HAM_0007538,ISIC_0024315,mel,histo,55.0,male,trunk
+HAM_0002718,ISIC_0024316,nv,follow_up,55.0,male,back
+HAM_0003951,ISIC_0024317,nv,histo,35.0,female,abdomen
+HAM_0002450,ISIC_0024318,df,consensus,65.0,female,lower extremity
+HAM_0003062,ISIC_0024319,nv,histo,55.0,male,lower extremity
+HAM_0005039,ISIC_0024320,nv,follow_up,65.0,male,trunk
+HAM_0003511,ISIC_0024321,nv,follow_up,35.0,male,lower extremity
+HAM_0001538,ISIC_0024322,nv,follow_up,65.0,female,foot
+HAM_0002493,ISIC_0024323,mel,histo,50.0,male,lower extremity
+HAM_0000351,ISIC_0024324,bkl,histo,85.0,male,back
+HAM_0002044,ISIC_0024325,nv,follow_up,40.0,female,trunk
+HAM_0001812,ISIC_0024326,nv,follow_up,75.0,male,back
+HAM_0005939,ISIC_0024327,nv,follow_up,50.0,female,foot
+HAM_0002701,ISIC_0024328,nv,histo,55.0,male,back
+HAM_0002954,ISIC_0024329,akiec,histo,75.0,female,lower extremity
+HAM_0006188,ISIC_0024330,df,consensus,40.0,male,lower extremity
+HAM_0004662,ISIC_0024331,bcc,histo,65.0,male,lower extremity
+HAM_0002240,ISIC_0024332,bcc,histo,60.0,male,unknown
+HAM_0007511,ISIC_0024333,mel,histo,85.0,male,lower extremity
+HAM_0001472,ISIC_0024334,nv,follow_up,45.0,female,trunk
+HAM_0004431,ISIC_0024335,nv,follow_up,45.0,female,lower extremity
+HAM_0006732,ISIC_0024336,bkl,histo,50.0,female,lower extremity
+HAM_0005136,ISIC_0024337,bkl,consensus,50.0,female,lower extremity
+HAM_0002809,ISIC_0024338,bkl,histo,45.0,female,face
+HAM_0005781,ISIC_0024339,nv,follow_up,50.0,male,trunk
+HAM_0001160,ISIC_0024340,nv,histo,10.0,female,foot
